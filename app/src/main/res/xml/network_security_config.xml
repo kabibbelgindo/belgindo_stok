@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <!-- Turso selalu HTTPS; tetap izinkan http hanya untuk server libsql lokal
+         milik pengembang (mis. http://127.0.0.1:8080 saat uji sqld lokal). -->
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="false">127.0.0.1</domain>
+        <domain includeSubdomains="false">localhost</domain>
+    </domain-config>
+</network-security-config>

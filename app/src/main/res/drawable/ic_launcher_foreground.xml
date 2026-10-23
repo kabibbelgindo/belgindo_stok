@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Lapisan depan ikon adaptif: batang kayu bertumpuk (simbol stok gudang). -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Batang terbawah -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M30,62 h48 a4,4 0 0 1 4,4 v4 a4,4 0 0 1 -4,4 h-48 a4,4 0 0 1 -4,-4 v-4 a4,4 0 0 1 4,-4 z" />
+    <!-- Batang tengah (lebih pendek) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M36,52 h36 a4,4 0 0 1 4,4 v4 a4,4 0 0 1 -4,4 h-36 a4,4 0 0 1 -4,-4 v-4 a4,4 0 0 1 4,-4 z" />
+    <!-- Batang atas (paling pendek) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M42,42 h24 a4,4 0 0 1 4,4 v4 a4,4 0 0 1 -4,4 h-24 a4,4 0 0 1 -4,-4 v-4 a4,4 0 0 1 4,-4 z" />
+    <!-- Titik aksen -->
+    <path
+        android:fillColor="#FFC44D"
+        android:pathData="M52,32 a4,4 0 1 1 8,0 a4,4 0 1 1 -8,0 z" />
+</vector>

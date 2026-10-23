@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Tema dasar tanpa action bar; seluruh UI digambar Jetpack Compose. -->
+    <style name="Theme.StokBR" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">#123B63</item>
+    </style>
+</resources>
